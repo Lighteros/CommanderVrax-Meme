@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commander Vrax — VRAX</title>
+  <meta name="description" content="Commander Vrax (VRAX), Commander-in-Chief of Robinhood. A memecoin on Robinhood Chain.">
+  <meta name="theme-color" content="#05060a">
+  <link rel="canonical" href="https://commandervrax.space/">
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://commandervrax.space/">
+  <meta property="og:title" content="Commander Vrax">
+  <meta property="og:description" content="Commander Vrax (VRAX), Commander-in-Chief of Robinhood.">
+  <meta property="og:image" content="https://commandervrax.space/logo.webp">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,520;0,9..144,680;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <div class="sky" aria-hidden="true">
+    <canvas id="stars"></canvas>
+    <div class="limbs"></div>
+    <div class="earth"></div>
+    <div class="grid"></div>
+    <div class="follow"></div>
+    <div class="grain"></div>
+    <div class="vignette"></div>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#hero">
+      <img src="logo.webp" alt="" width="40" height="40">
+      <span>VRAX</span>
+    </a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="links">Menu</button>
+    <nav id="links" class="links">
+      <a href="#about">About</a>
+      <a href="#howtobuy">How to Buy</a>
+      <a href="#chart">Chart</a>
+      <a href="#joinus">Join</a>
+    </nav>
+    <div class="nav-side">
+      <time id="bridge-time" datetime="">--:--:-- UTC</time>
+      <a class="nav-x" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Commander Vrax on X">
+        <img src="icons/x.svg" alt="" width="16" height="16">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="tubes" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="hero-copy">
+        <p class="kicker">Robinhood Chain</p>
+        <h1>
+          <span class="rank">Commander</span>
+          <span class="name">Vrax</span>
+        </h1>
+        <p class="post">Commander-in-Chief of Robinhood</p>
+        <p class="lede">The memecoin on the bridge. Cream coat, black collar, fluorescent watch. Symbol VRAX. The deck is Robinhood Chain.</p>
+        <div class="cta">
+          <a class="btn solid" href="https://app.uniswap.org/swap?chain=robinhood" target="_blank" rel="noopener noreferrer">
+            <img src="icons/uniswap.svg" alt="" width="18" height="18">
+            Swap on Uniswap
+          </a>
+          <a class="btn ghost" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer">
+            <img src="icons/dexscreener.svg" alt="" width="18" height="18">
+            Robinhood chart
+          </a>
+        </div>
+        <dl class="stats">
+          <div><dt>Symbol</dt><dd>VRAX</dd></div>
+          <div><dt>Post</dt><dd>CIC</dd></div>
+          <div><dt>Chain</dt><dd>Robinhood</dd></div>
+          <div><dt>Venue</dt><dd>Uniswap</dd></div>
+        </dl>
+      </div>
+
+      <div class="seal">
+        <div class="ring ring-a"></div>
+        <div class="ring ring-b"></div>
+        <div class="sweep"></div>
+        <i class="whisk w1"></i>
+        <i class="whisk w2"></i>
+        <i class="whisk w3"></i>
+        <i class="whisk w4"></i>
+        <div class="portrait">
+          <img src="logo.webp" alt="Commander Vrax" width="512" height="512" fetchpriority="high">
+        </div>
+        <p class="seal-tag">On watch</p>
+      </div>
+
+      <a class="down" href="#about">
+        <span>The post</span>
+        <i></i>
+      </a>
+    </section>
+
+    <div class="tape" aria-hidden="true">
+      <div class="tape-track">
+        <span>Commander Vrax</span><b></b>
+        <span>VRAX</span><b></b>
+        <span>Commander-in-Chief of Robinhood</span><b></b>
+        <span>Robinhood Chain</span><b></b>
+        <span>Uniswap</span><b></b>
+        <span>DexScreener</span><b></b>
+        <span>Commander Vrax</span><b></b>
+        <span>VRAX</span><b></b>
+        <span>Commander-in-Chief of Robinhood</span><b></b>
+        <span>Robinhood Chain</span><b></b>
+        <span>Uniswap</span><b></b>
+        <span>DexScreener</span><b></b>
+      </div>
+    </div>
+
+    <section class="block" id="about">
+      <div class="wrap">
+        <p class="index reveal"><span>01</span> About</p>
+        <div class="about-grid">
+          <div class="reveal">
+            <h2>The officer who holds the corridor.</h2>
+            <p>The bridge stays dark until the tubes come up. Commander Vrax stands in that light: a round cream face, a black collar, Earth curved in the glass behind the watch.</p>
+            <p>VRAX is the call sign. The rank is Commander-in-Chief of Robinhood. Orders clear on Robinhood Chain, through Uniswap, and the public board is DexScreener.</p>
+          </div>
+          <div class="seal-mini reveal" style="--d: .12s">
+            <img src="logo.webp" alt="" width="512" height="512">
+          </div>
+        </div>
+        <div class="cards">
+          <article class="card reveal" style="--d: .05s">
+            <h3>The officer</h3>
+            <p>One face on the bridge. The coat is cream, the collar is black, and the post does not rotate.</p>
+          </article>
+          <article class="card reveal" style="--d: .15s">
+            <h3>The chain</h3>
+            <p>Robinhood Chain, chain ID 4663. Gas is ETH. Liquidity sits on Uniswap.</p>
+          </article>
+          <article class="card reveal" style="--d: .25s">
+            <h3>The watch</h3>
+            <p>The chart is the Robinhood board on DexScreener. The order channel is X.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="howtobuy">
+      <div class="wrap">
+        <p class="index reveal"><span>02</span> How to buy</p>
+        <div class="split reveal">
+          <h2>Four moves. Then you are on the deck.</h2>
+          <p>VRAX trades on Robinhood Chain. Match the contract posted on X before you sign anything.</p>
+        </div>
+        <ol class="steps">
+          <li class="reveal" style="--d: .04s">
+            <span>01</span>
+            <h3>Add the chain</h3>
+            <p>In an EVM wallet, add Robinhood Chain by hand. The chain ID is the part that matters.</p>
+          </li>
+          <li class="reveal" style="--d: .12s">
+            <span>02</span>
+            <h3>Fund the gas</h3>
+            <p>Hold ETH on Robinhood Chain. Swaps and approvals spend a little of it.</p>
+          </li>
+          <li class="reveal" style="--d: .2s">
+            <span>03</span>
+            <h3>Swap on Uniswap</h3>
+            <p>Set the network to Robinhood Chain and swap ETH for VRAX. Read the contract from the post on X and match it character for character.</p>
+          </li>
+          <li class="reveal" style="--d: .28s">
+            <span>04</span>
+            <h3>Watch the board</h3>
+            <p>Open DexScreener on the Robinhood chain and follow the VRAX pair from the bridge.</p>
+          </li>
+        </ol>
+
+        <div class="plate reveal">
+          <div class="plate-head">
+            <h3>Robinhood Chain</h3>
+            <p>Manual network entry</p>
+          </div>
+          <dl class="spec">
+            <div>
+              <dt>Network</dt>
+              <dd>Robinhood Chain</dd>
+            </div>
+            <div>
+              <dt>Chain ID</dt>
+              <dd><button type="button" data-copy="4663">4663</button></dd>
+            </div>
+            <div>
+              <dt>RPC</dt>
+              <dd><button type="button" data-copy="https://rpc.mainnet.chain.robinhood.com">rpc.mainnet.chain.robinhood.com</button></dd>
+            </div>
+            <div>
+              <dt>Currency</dt>
+              <dd>ETH</dd>
+            </div>
+            <div>
+              <dt>Explorer</dt>
+              <dd><a href="https://robinhoodchain.blockscout.com/" target="_blank" rel="noopener noreferrer">robinhoodchain.blockscout.com</a></dd>
+            </div>
+          </dl>
+          <div class="plate-links">
+            <a class="btn solid" href="https://app.uniswap.org/swap?chain=robinhood" target="_blank" rel="noopener noreferrer">
+              <img src="icons/uniswap.svg" alt="" width="18" height="18">
+              Open Uniswap
+            </a>
+            <a class="btn ghost" href="https://robinhoodchain.blockscout.com/" target="_blank" rel="noopener noreferrer">
+              <img src="icons/blockscout.svg" alt="" width="18" height="18">
+              Open explorer
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="chart">
+      <div class="wrap">
+        <p class="index reveal"><span>03</span> Chart</p>
+        <div class="split reveal">
+          <h2>The Robinhood board.</h2>
+          <p>Live pairs on Robinhood Chain, embedded from DexScreener.</p>
+        </div>
+        <div class="screen hud reveal">
+          <span class="c tl"></span>
+          <span class="c tr"></span>
+          <span class="c bl"></span>
+          <span class="c br"></span>
+          <iframe
+            title="DexScreener Robinhood chart"
+            src="https://dexscreener.com/robinhood?embed=1&theme=dark"
+            loading="lazy"
+            allow="clipboard-write"
+          ></iframe>
+        </div>
+        <p class="chart-link reveal">
+          <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer">
+            <img src="icons/dexscreener.svg" alt="" width="16" height="16">
+            dexscreener.com/robinhood
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section class="block join" id="joinus">
+      <div class="wrap">
+        <p class="index reveal"><span>04</span> Join us</p>
+        <div class="split reveal">
+          <h2>Fall in on the bridge.</h2>
+          <p>The still from the corridor. The order channel is X.</p>
+        </div>
+        <figure class="still hud reveal">
+          <span class="c tl"></span>
+          <span class="c tr"></span>
+          <span class="c bl"></span>
+          <span class="c br"></span>
+          <img src="banner.webp" alt="Commander Vrax on the bridge above Earth" width="600" height="200">
+          <figcaption>Commander Vrax. Bridge watch.</figcaption>
+        </figure>
+        <div class="join-row reveal">
+          <a class="btn solid" href="https://x.com/" target="_blank" rel="noopener noreferrer">
+            <img src="icons/x.svg" alt="" width="16" height="16">
+            Open X
+          </a>
+          <div class="socs">
+            <a class="soc" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X">
+              <img src="icons/x.svg" alt="" width="18" height="18">
+            </a>
+            <a class="soc" href="https://app.uniswap.org/swap?chain=robinhood" target="_blank" rel="noopener noreferrer" aria-label="Uniswap">
+              <img src="icons/uniswap.svg" alt="" width="18" height="18">
+            </a>
+            <a class="soc" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer" aria-label="DexScreener">
+              <img src="icons/dexscreener.svg" alt="" width="18" height="18">
+            </a>
+            <a class="soc" href="https://robinhoodchain.blockscout.com/" target="_blank" rel="noopener noreferrer" aria-label="Blockscout">
+              <img src="icons/blockscout.svg" alt="" width="18" height="18">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-row">
+      <p>Commander Vrax <span>VRAX</span></p>
+      <p>Commander-in-Chief of Robinhood</p>
+    </div>
+  </footer>
+
+  <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+  <script src="main.js"></script>
+</body>
+</html>
